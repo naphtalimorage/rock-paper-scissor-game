@@ -13,6 +13,7 @@ const App = () => {
     const choices = ["Rock", "Paper", "Scissors"];
     const randomChoices = [Math.floor(Math.random() * choices.length)];
     const computerChoices = choices[randomChoices];
+    console.log(computerChoice);
     setComputerChoice(computerChoices);
   };
 
